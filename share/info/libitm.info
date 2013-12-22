@@ -1,6 +1,6 @@
 This is libitm.info, produced by makeinfo version 5.1 from libitm.texi.
 
-Copyright (C) 2011-2013 Free Software Foundation, Inc.
+Copyright (C) 2011 Free Software Foundation, Inc.
 
    Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.2 or
@@ -15,7 +15,7 @@ END-INFO-DIR-ENTRY
 
    This manual documents the GNU Transactional Memory Library.
 
-   Copyright (C) 2011-2013 Free Software Foundation, Inc.
+   Copyright (C) 2011 Free Software Foundation, Inc.
 
    Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.2 or
@@ -139,13 +139,6 @@ transaction) about which memory locations are shared and which are not
 shared with other threads (i.e., data must be accessed either
 transactionally or nontransactionally).  Otherwise, non-write-through TM
 algorithms would not work.
-
-   For memory locations on the stack, this requirement extends to only
-the lifetime of the stack frame that the memory location belongs to (or
-the lifetime of the transaction, whichever is shorter).  Thus, memory
-that is reused for several stack frames could be target of both data
-logging and transactional accesses; however, this is harmless because
-these stack frames' lifetimes will end before the transaction finishes.
 
 3.3.6 [No changes] Scatter/gather calls
 ---------------------------------------
@@ -1279,15 +1272,15 @@ Index
 
 
 Tag Table:
-Node: Top1141
-Node: Enabling libitm2045
-Node: C/C++ Language Constructs for TM2440
-Node: The libitm ABI3923
-Ref: txn-code-properties7721
-Node: Internals18026
-Ref: serial-lock-impl28064
-Ref: progress-guarantees32825
-Node: GNU Free Documentation License35103
-Node: Index60224
+Node: Top1131
+Node: Enabling libitm2035
+Node: C/C++ Language Constructs for TM2430
+Node: The libitm ABI3913
+Ref: txn-code-properties7286
+Node: Internals17591
+Ref: serial-lock-impl27629
+Ref: progress-guarantees32390
+Node: GNU Free Documentation License34668
+Node: Index59789
 
 End Tag Table
