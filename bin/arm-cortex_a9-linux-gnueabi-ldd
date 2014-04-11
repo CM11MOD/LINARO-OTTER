@@ -2,7 +2,7 @@
 
 # NON-CONFIGURABLE STUFF!
 export LC_ALL=C
-version="hg+default-529a71ea091e"
+version="hg+default-9321d9d7af9b"
 bits="32"
 sed="${SED:-/bin/sed}"
 grep="${GREP:-/bin/grep}"

@@ -3,8 +3,8 @@ This is libc.info, produced by makeinfo version 5.1 from libc.texinfo.
 This file documents the GNU C Library.
 
    This is 'The GNU C Library Reference Manual', for version
-2.18-2013.09 (crosstool-NG hg+default-529a71ea091e - Linaro GCC
-2014.01).
+2.18-2013.10 (crosstool-NG hg+default-9321d9d7af9b - Linaro GCC
+2014.04).
 
    Copyright (C) 1993-2013 Free Software Foundation, Inc.
 
